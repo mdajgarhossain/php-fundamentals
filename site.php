@@ -7,10 +7,23 @@
   <body>
 
     <?php
-      echo "Hello World!";
-      echo "<p>This is my website over the internet.</p>";
-      echo "<h2>Learn PHP fundamentals</h2>";
-      echo "<hr />";
+      // Data Types in php
+      // 1. String
+      $phrase = "To be or not to be";
+      // 2. Number
+      // 2.1 Integer
+      $age = 30;
+      // 2.2 Decimal/Floating
+      $gpa = 5.0;
+      $taka = 30.0;
+      $loan = -300;
+       // 3. Boolean
+       $isMale = true;
+       $hasAccess = false;
+       // 4. null
+       $sum = null;
+
+       echo $phrase;
      ?>
   </body>
 </html>
